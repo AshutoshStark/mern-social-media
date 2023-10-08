@@ -12,8 +12,8 @@ const LoginPage = () => {
         p="1rem 6%"
         textAlign="center"
       >
-        <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
+        <Typography fontWeight="bold" fontSize="32px" color="#745abb">
+          Fundsphere
         </Typography>
       </Box>
 
@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Socipedia, the Social Media for Sociopaths!
+          Welcome to Fundsphere, the Social Media for Businesses!
         </Typography>
         <Form />
       </Box>

@@ -162,7 +162,7 @@ const Form = () => {
                   sx={{ gridColumn: "span 4" }}
                 />
                 <TextField
-                  label="Occupation"
+                  label="You are ?"
                   onBlur={handleBlur}
                   onChange={handleChange}
                   value={values.occupation}
@@ -240,7 +240,7 @@ const Form = () => {
               sx={{
                 m: "2rem 0",
                 p: "1rem",
-                backgroundColor: palette.primary.main,
+                backgroundColor: "#745abb",
                 color: palette.background.alt,
                 "&:hover": { color: palette.primary.main },
               }}
@@ -254,10 +254,10 @@ const Form = () => {
               }}
               sx={{
                 textDecoration: "underline",
-                color: palette.primary.main,
+                color: "#745abb",
                 "&:hover": {
                   cursor: "pointer",
-                  color: palette.primary.light,
+                  color: "#745abb",
                 },
               }}
             >
